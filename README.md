@@ -5,7 +5,7 @@ This is an example repo for creating an OpenAI ChatGPT-powered chatbot that you 
 It's a very minimal example. For a better one, check out [Sock](https://github.com/didymos-io/sock#readme).
 
 <p align="center">
-  <img src="public/sample/sample-image.png">
+  <img src="public/sample/sample-image.PNG">
 </p>
 
 ## To Install
@@ -66,4 +66,4 @@ yarn frontend
 
 Finally, open a browser and navigate to http://localhost:3000.
 
-To get the chatbot to respond to you, say his name, "Data" after you've finished what you want to say.
+To get the chatbot to respond to you, say his name, "Data", after you've finished what you want to say.
