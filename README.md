@@ -2,7 +2,7 @@
 
 This is an example repo for creating an OpenAI ChatGPT-powered chatbot that you can talk to with your voice thanks to OpenAI's Whisper transcription model.
 
-It's a very minimal example. For a better one, check out [Sock](https://github.com/didymos-io/sock#readme).
+It's a very minimal example of a talking chatbot with a voice. 🎙 For a more complex and customizable one, you can check out 🧦 [Sock](https://github.com/didymos-io/sock#readme).
 
 <p align="center">
   <img src="public/sample/sample-image.PNG">
