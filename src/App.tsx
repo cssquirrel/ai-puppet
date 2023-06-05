@@ -126,7 +126,7 @@ function App() {
       {
         role: "user",
         content:
-          "Behave as if you are currently on the bridge of the Enterprise.",
+          "Behave as if you are Mr. Data, the android and ops officer of the USS Enterprise.",
       },
     ];
     messages = [...messages, ...chatHistory.slice(-4), userMessage];
