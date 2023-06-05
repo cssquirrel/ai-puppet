@@ -9,7 +9,6 @@ function App() {
   const [chatHistory, setChatHistory] = useState<OpenAiChatCompletionMessage[]>(
     []
   );
-  const [haveRequestedStop, setHaveRequestedStop] = useState(false);
   const [isMouthOpen, setIsMouthOpen] = useState(false);
   const [isRecording, setIsRecording] = useState(false);
   const [isSpeaking, setIsSpeaking] = useState(false);
@@ -49,7 +48,6 @@ function App() {
 
   const handleActivateClick = () => {
     setIsRecording(true);
-    setHaveRequestedStop(false);
     startRecordingTimer();
   };
 
@@ -138,14 +136,10 @@ function App() {
   };
 
   const transcribeRecording = async (blob: Blob): Promise<string> => {
-    if (!haveRequestedStop) {
-      setIsRecording(true);
-    }
+    setIsRecording(true);
     const transcription = await transcribe(blob);
     setTranscribedText(transcribedText + transcription);
-    if (!haveRequestedStop) {
-      startRecordingTimer();
-    }
+    startRecordingTimer();
     return transcribedText + transcription;
   };
 
