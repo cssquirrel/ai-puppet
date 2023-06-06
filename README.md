@@ -68,7 +68,7 @@ Finally, open a browser and navigate to http://localhost:3000.
 
 ## Troubleshooting
 
-If you get an error like `TypeError: argument of type 'NoneType' is not iterable` when you run `yarn backend`, you may need to fore reinstall whisper. Do the following in your terminal:
+If you get an error like `TypeError: argument of type 'NoneType' is not iterable` when you run `yarn backend`, you may need to forcibly reinstall whisper. Do the following in your terminal:
 
 ```
 cd backend
