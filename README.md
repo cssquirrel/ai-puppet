@@ -66,4 +66,15 @@ yarn frontend
 
 Finally, open a browser and navigate to http://localhost:3000.
 
+## Troubleshooting
+
+If you get an error like `TypeError: argument of type 'NoneType' is not iterable` when you run `yarn backend`, you may need to fore reinstall whisper. Do the following in your terminal:
+
+```
+cd backend
+python3 -m venv venv
+venv\scripts\activate
+pip install --upgrade --no-deps --force-reinstall git+https://github.com/openai/whisper.git
+```
+
 To get the chatbot to respond to you, say his name, "Data", after you've finished what you want to say.
