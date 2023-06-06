@@ -13,5 +13,5 @@ torchaudio
 flask
 flask_cors
 openai
+openai-whisper
 python-dotenv
-TTS
