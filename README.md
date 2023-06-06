@@ -16,7 +16,7 @@ Make sure to have your various dependencies installed.
 
 - [Node.js and NPM](https://nodejs.org/)
 - [Yarn](https://classic.yarnpkg.com/lang/en/docs/install/#windows-stable)
-- [Python 3.8+](https://www.python.org/downloads/)
+- [Python 3.10](https://www.python.org/downloads/)
 - [FFmpeg](https://ffmpeg.org/download.html) ([Install Instructions](https://phoenixnap.com/kb/ffmpeg-windows))
 
 ### Install Frontend
